@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="HTTP5101_n01359105_FINAL_PROJECT_.Layout" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>HTML Tags</title>
+    <link rel="stylesheet" type="text/css" href="/Content/style.css">
+</head>
+<body>
+    <header>
+        <div class="maxWidth">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="maxWidth">
+        <form id="form1" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </form>
+    </div>
+    <footer>
+        <div class="maxWidth">
+             <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
